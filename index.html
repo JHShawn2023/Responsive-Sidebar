@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Side Navigation Bar create by using HTML, CSS & JavaScript.</title>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav class="navbar">
+      <div class="logo_item">
+        <i class="bx bx-menu" id="sidebarOpen"></i>
+        <img src="/images/logo1.png" alt="" />MergeAble
+      </div>
+
+      <div class="search_bar">
+        <input type="text" name="" id="" placeholder="Search" />
+      </div>
+
+      <div class="navbar_content">
+        <!-- <i class="bi bi-grid"></i> -->
+        <i class="bx bx-sun" id="darkLight"></i>
+        <i class="bx bx-bell"></i>
+        <img src="/images/profile.png" alt="" class="profile" />
+      </div>
+    </nav>
+
+    <!-- sidebar -->
+    <nav class="sidebar">
+        <div class="menu_content">
+          <!-- first step -->
+          <ul class="menu_items">
+            <div class="menu_title menu_dashboard"></div>
+            <li class="item">
+              <div href="#" class="nav_link submenu_item">
+                <span class="navlink_icon">
+                  <i class='bx bx-home-alt'></i>
+                </span>
+                <span class="navlink">Home</span>
+                <i class='bx bx-chevron-right ar' ></i>
+              </div>
+
+              <ul class="menu_items submenu">
+                <a href="#" class="nav_link sublink"> New Sub Menu</a>
+                <a href="#" class="nav_link sublink"> New Sub Menu</a>
+                <a href="#" class="nav_link sublink"> New Sub Menu</a>
+                <a href="#" class="nav_link sublink"> New Sub Menu</a>
+              </ul>
+
+            </li>
+
+            <!-- first 02 -->
+            <li class="item">
+              <div href="#" class="nav_link submenu_item">
+                <span class="navlink_icon">
+                  <i class='bx bx-grid-alt'></i>
+                </span>
+                <span class="navlink">Overview</span>
+                <i class='bx bx-chevron-right ar' ></i>
+              </div>
+
+              <ul class="menu_items submenu">
+                <a href="#" class="nav_link sublink"> New Sub Menu</a>
+                <a href="#" class="nav_link sublink"> New Sub Menu</a>
+                <a href="#" class="nav_link sublink"> New Sub Menu</a>
+                <a href="#" class="nav_link sublink"> New Sub Menu</a>
+              </ul>
+
+            </li>
+          </ul>
+          <!-- End -->
+
+    <!-- Second step -->
+    <!-- <h1>Editor</h1> -->
+          <ul class="menu_items">
+            <div class="menu_title menu_editor"></div>
+
+            <!-- second 01 -->
+            <li class="item">
+              <a href="#" class="nav_link">
+                <span class="navlink_icon">
+                  <i class='bx bxs-magic-wand'></i>
+                </span>
+                <span class="navlink">Magic build</span>
+              </a>
+            </li>
+
+            <!-- second 02 -->
+            <li class="item">
+              <a href="#" class="nav_link">
+                <span class="navlink_icon">
+                  <i class='bx bx-loader-circle' ></i>
+                </span>
+                <span class="navlink">Filters</span>
+              </a>
+            </li>
+
+            <!-- second 03 -->
+            <li class="item">
+              <a href="#" class="nav_link">
+                <span class="navlink_icon">
+                  <i class='bx bx-filter'></i>
+                </span>
+                <span class="navlink">Filter</span>
+              </a>
+            </li>
+
+            <!-- second 04 -->
+            <li class="item">
+              <a href="#" class="nav_link">
+                <span class="navlink_icon">
+                  <i class='bx bx-cloud-upload'></i>
+                </span>
+                <span class="navlink">Upload new</span>
+              </a>
+            </li>
+          </ul>  
+
+  <!-- Third step-->
+          <!-- <h1>Setting</h1> -->
+          <ul class="menu_items">
+            <div class="menu_title menu_setting"></div>
+
+            <!-- third 01 -->
+            <li class="item">
+              <a href="#" class="nav_link">
+                <span class="navlink_icon">
+                  <i class='bx bx-flag'></i>
+                </span>
+                <span class="navlink">Notice board</span>
+              </a>
+            </li>
+
+            <!-- third 02 -->
+            <li class="item">
+              <a href="#" class="nav_link">
+                <span class="navlink_icon">
+                  <i class='bx bx-medal'></i>
+                </span>
+                <span class="navlink">Award</span>
+              </a>
+            </li>
+
+            <!-- third 03 -->
+            <li class="item">
+              <a href="#" class="nav_link">
+                <span class="navlink_icon">
+                  <i class='bx bx-cog'></i>
+                </span>
+                <span class="navlink">Setting</span>
+              </a>
+            </li>
+
+            <!-- third 04 -->
+            <li class="item">
+              <a href="#" class="nav_link">
+                <span class="navlink_icon">
+                  <i class='bx bx-layer'></i>
+                </span>
+                <span class="navlink">Features</span>
+              </a>
+            </li>
+          </ul> 
+
+    <!-- sidebar open / close -->
+          <div class="bottom_content">
+
+            <div class="bottom expand_sidebar">
+              <span>Expand</span>
+              <i class='bx bx-log-in'></i>
+
+            </div>
+
+            <div class="bottom collapse_sidebar">
+              <span>Collapse</span>
+              <i class='bx bx-log-out'></i>
+            </div>
+
+          </div>
+          
+        </div>
+
+
+    </nav>
+
+    <script src="script.js"></script>
+  </body>
+</html>
